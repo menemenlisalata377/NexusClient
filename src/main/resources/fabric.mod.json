@@ -1,0 +1,19 @@
+
+{
+  "schemaVersion": 1,
+  "id": "nexus",
+  "version": "1.0.0",
+  "name": "Nexus Client",
+  "description": "Nexus Client for Minecraft 1.21.11",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "nexus.NexusClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
